@@ -1,0 +1,17 @@
+a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #666;
+}
+a.active {
+  color: red !important;
+}
+a i {
+  font-size: 28px;
+}
+a span {
+  font-size: 14px;
+}

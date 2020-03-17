@@ -1,0 +1,33 @@
+.category_container{
+  section{
+    width: 100%;
+    display: flex;
+    border-top:1px solid #e4e4e4;
+    .leftNavWrapper{ 
+      padding: 10px 0;
+      width: 28%;
+      border-right: 1px solid #e4e4e4;
+      border-bottom: 1px solid #e4e4e4;
+      li{
+        padding: 8px 10px;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 10px;
+        text-align: center;
+        position: relative;
+        &.active::before{
+          content: '';
+          background : #AB2B2B;
+          height:100%;
+          width: 3px;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+    }
+    .rgihtNavWrapper{
+      width: 75%;
+    }
+  }
+}
